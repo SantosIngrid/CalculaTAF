@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ingrid Elias">
+    <title>TAF - Exército Brasileiro</title>
+    <link rel="icon" href="img/boina.png" type="image\x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1> Teste de Aptidão Física </h1>
+    </header>
+<main>
+
+<form name="f_cadastro" action="#" method="get">
+    <label> Gênero:</label>
+    <select class="f_sexo" name="f_sexo" action="#" method="get">
+        <option value="F">Feminino</option>
+        <option value="M">Masculino</option>
+    </select>
+    <br>
+    <label> Linha de Ensino:</label>
+    <select class="f_linha" name="f_linha" action="#" method="get">
+        <option >LEMB</option>
+        <option>LEMCT ou LEMS</option>
+    </select>
+    <br>
+    
+    <label>Nome </label>
+    <input type="text" name="f_nome" value="Nome">
+    <br>
+
+
+    <label> Posto ou Graduação</label>
+    <select class="f_graduacao" name="f_graduacao" action="#" method="get">
+        <option >General</option>
+        <option>Coronel</option>
+        <option>Tenente Coronel</option>
+        <option>Major</option>
+        <option>Capitão</option>
+        <option>1º Tenente</option>
+        <option>2º Tenente</option>
+        <option>Aspirante</option>
+        <option>Subtenente</option>
+        <option>1º Sargento</option>
+        <option>2º Sargento</option>
+        <option>3º Sargento</option>
+        <option>Cabo</option>
+        <option>Soldado</option>
+    </select>
+    <br>
+<fieldset> 
+    <legend>Índices do TAF</legend> 
+    <label> Corrida</label>
+    <input type="text" name="f_corrida" maxlength="4">
+    <br>
+    <label>Flexões</label>
+    <input type="text" name="f_flexao" maxlength="3">
+    <br>
+    <label> Barra Fixa</label>
+    <input type="text" name="f_barrafixa" maxlength="2">
+    <br>
+    <label> Abdominal</label>
+    <input type="text" name="f_abdominal" maxlength="3">
+    <br>
+    <div id="dv_btns">
+        <input type="submit" name="f_btn_enviar" value="Gravar">
+    
+        <input type="reset" name="f_btn_limpar" value="Limpar">
+    </div>  
+</fieldset>
+   <br>
+   <fieldset>
+    <legend>Resultado</legend>
+    <input type="text" name="f_resultado" value="Resultado">
+   </fieldset>
+   
+    
+    
+    
+
+
+</form>
+</main>
+<footer>
+<hr>
+<p id="rodape">&copy;  Ingrid Elias</p>
+</footer>
+</body>
+</html>
